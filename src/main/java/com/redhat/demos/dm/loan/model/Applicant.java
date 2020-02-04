@@ -13,9 +13,7 @@ public class Applicant implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Credit Score")
 	private int creditScore;
 
-	private java.lang.Boolean dddd;
-
-	private java.lang.Boolean dxzxx;
+	private java.lang.Character ss;
 
 	public Applicant() {
 	}
@@ -36,28 +34,19 @@ public class Applicant implements java.io.Serializable {
 		this.creditScore = creditScore;
 	}
 
-	public java.lang.Boolean getDddd() {
-		return this.dddd;
+	public java.lang.Character getSs() {
+		return this.ss;
 	}
 
-	public void setDddd(java.lang.Boolean dddd) {
-		this.dddd = dddd;
-	}
-
-	public java.lang.Boolean getDxzxx() {
-		return this.dxzxx;
-	}
-
-	public void setDxzxx(java.lang.Boolean dxzxx) {
-		this.dxzxx = dxzxx;
+	public void setSs(java.lang.Character ss) {
+		this.ss = ss;
 	}
 
 	public Applicant(java.lang.String name, int creditScore,
-			java.lang.Boolean dddd, java.lang.Boolean dxzxx) {
+			java.lang.Character ss) {
 		this.name = name;
 		this.creditScore = creditScore;
-		this.dddd = dddd;
-		this.dxzxx = dxzxx;
+		this.ss = ss;
 	}
 
 }
