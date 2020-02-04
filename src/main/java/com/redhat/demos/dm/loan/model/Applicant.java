@@ -15,6 +15,8 @@ public class Applicant implements java.io.Serializable {
 
 	private java.lang.Boolean dddd;
 
+	private java.lang.Boolean dxzxx;
+
 	public Applicant() {
 	}
 
@@ -42,11 +44,20 @@ public class Applicant implements java.io.Serializable {
 		this.dddd = dddd;
 	}
 
+	public java.lang.Boolean getDxzxx() {
+		return this.dxzxx;
+	}
+
+	public void setDxzxx(java.lang.Boolean dxzxx) {
+		this.dxzxx = dxzxx;
+	}
+
 	public Applicant(java.lang.String name, int creditScore,
-			java.lang.Boolean dddd) {
+			java.lang.Boolean dddd, java.lang.Boolean dxzxx) {
 		this.name = name;
 		this.creditScore = creditScore;
 		this.dddd = dddd;
+		this.dxzxx = dxzxx;
 	}
 
 }
