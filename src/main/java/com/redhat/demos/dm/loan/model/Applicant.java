@@ -8,10 +8,12 @@ public class Applicant implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Name")
+	@org.kie.api.definition.type.Label("Name")
 	private java.lang.String name;
-	@org.kie.api.definition.type.Label(value = "Credit Score")
+	@org.kie.api.definition.type.Label("Credit Score")
 	private int creditScore;
+
+	private java.lang.Long eddd;
 
 	public Applicant() {
 	}
@@ -32,9 +34,18 @@ public class Applicant implements java.io.Serializable {
 		this.creditScore = creditScore;
 	}
 
-	public Applicant(java.lang.String name, int creditScore) {
+	public java.lang.Long getEddd() {
+		return this.eddd;
+	}
+
+	public void setEddd(java.lang.Long eddd) {
+		this.eddd = eddd;
+	}
+
+	public Applicant(java.lang.String name, int creditScore, java.lang.Long eddd) {
 		this.name = name;
 		this.creditScore = creditScore;
+		this.eddd = eddd;
 	}
 
 }
