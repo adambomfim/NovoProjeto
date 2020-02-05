@@ -60,7 +60,7 @@
 	
 	<distributionManagement>
      <repository>
-     <id>${maven-repo-id}</id>
+     <id>guvnor-m2-repo</id>
      <url>C:\MavenBuild</url>
      <layout>default</layout>
      </repository>
