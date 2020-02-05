@@ -58,12 +58,12 @@
 		</repository>
 	</repositories>
 	
-	<distributionManagement>
-     <repository>
-     <id>guvnor-m2-repo</id>
-     <url>C:\MavenBuild</url>
-     <layout>default</layout>
-     </repository>
+<distributionManagement>
+<repository>
+<id>${maven-repo-id}</id>
+<url>${maven-repo-url}</url>
+<layout>default</layout>
+</repository>
 </distributionManagement>
 	
 </project>
