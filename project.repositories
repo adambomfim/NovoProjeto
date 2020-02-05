@@ -3,25 +3,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>C:\Users\adambomfim/.m2/repository</url>
-        <source>LOCAL</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>guvnor-m2-repo</id>
-        <url>http://localhost:8080/decision-central/maven2/</url>
+        <url>http://localhost:8080/manager</url>
         <source>PROJECT</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>${maven-repo-id}</id>
-        <url>${maven-repo-url}</url>
-        <source>DISTRIBUTION_MANAGEMENT</source>
+        <id>local</id>
+        <url>C:\Users\adambomfim/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
     <repository>
