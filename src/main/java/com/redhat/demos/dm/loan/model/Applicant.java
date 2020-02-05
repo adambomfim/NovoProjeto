@@ -15,6 +15,8 @@ public class Applicant implements java.io.Serializable {
 
 	private java.lang.Character ss;
 
+	private java.lang.String adam;
+
 	public Applicant() {
 	}
 
@@ -42,11 +44,20 @@ public class Applicant implements java.io.Serializable {
 		this.ss = ss;
 	}
 
+	public java.lang.String getAdam() {
+		return this.adam;
+	}
+
+	public void setAdam(java.lang.String adam) {
+		this.adam = adam;
+	}
+
 	public Applicant(java.lang.String name, int creditScore,
-			java.lang.Character ss) {
+			java.lang.Character ss, java.lang.String adam) {
 		this.name = name;
 		this.creditScore = creditScore;
 		this.ss = ss;
+		this.adam = adam;
 	}
 
 }
