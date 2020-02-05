@@ -17,6 +17,8 @@ public class Applicant implements java.io.Serializable {
 
 	private java.lang.String adam;
 
+	private java.lang.Byte cxzcz;
+
 	public Applicant() {
 	}
 
@@ -52,12 +54,21 @@ public class Applicant implements java.io.Serializable {
 		this.adam = adam;
 	}
 
+	public java.lang.Byte getCxzcz() {
+		return this.cxzcz;
+	}
+
+	public void setCxzcz(java.lang.Byte cxzcz) {
+		this.cxzcz = cxzcz;
+	}
+
 	public Applicant(java.lang.String name, int creditScore,
-			java.lang.Character ss, java.lang.String adam) {
+			java.lang.Character ss, java.lang.String adam, java.lang.Byte cxzcz) {
 		this.name = name;
 		this.creditScore = creditScore;
 		this.ss = ss;
 		this.adam = adam;
+		this.cxzcz = cxzcz;
 	}
 
 }
