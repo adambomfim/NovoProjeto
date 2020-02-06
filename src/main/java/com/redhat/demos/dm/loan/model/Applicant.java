@@ -17,8 +17,6 @@ public class Applicant implements java.io.Serializable {
 
 	private java.lang.String id;
 
-	private java.lang.Long teste;
-
 	public Applicant() {
 	}
 
@@ -54,21 +52,12 @@ public class Applicant implements java.io.Serializable {
 		this.id = id;
 	}
 
-	public java.lang.Long getTeste() {
-		return this.teste;
-	}
-
-	public void setTeste(java.lang.Long teste) {
-		this.teste = teste;
-	}
-
 	public Applicant(java.lang.String name, int creditScore,
-			java.lang.Byte cxzcz, java.lang.String id, java.lang.Long teste) {
+			java.lang.Byte cxzcz, java.lang.String id) {
 		this.name = name;
 		this.creditScore = creditScore;
 		this.cxzcz = cxzcz;
 		this.id = id;
-		this.teste = teste;
 	}
 
 }
